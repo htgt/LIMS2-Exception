@@ -1,2 +1,4 @@
-LIMS2-Exceptions
+LIMS2-Exception
 ================
+
+Exception handling for LIMS2.
