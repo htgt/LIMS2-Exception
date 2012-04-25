@@ -1,4 +1,6 @@
 {{$NEXT}}
+
+0.002     2012-04-25 10:12:05 Europe/London
 	
 	Fix Changes header.
 	Skip README.md.
