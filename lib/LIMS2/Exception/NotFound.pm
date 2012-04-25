@@ -1,4 +1,4 @@
-package LIMS2::Expection::NotFound;
+package LIMS2::Exception::NotFound;
 
 use strict;
 use warnings FATAL => 'all';
@@ -7,7 +7,7 @@ use Moose;
 use Data::Dump qw( pp );
 use namespace::autoclean;
 
-extends qw( LIMS2::Expection );
+extends qw( LIMS2::Exception );
 
 has '+message' => (
     default => 'Entity not found'

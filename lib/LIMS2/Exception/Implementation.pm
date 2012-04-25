@@ -1,4 +1,4 @@
-package LIMS2::Expection::Implementation;
+package LIMS2::Exception::Implementation;
 
 use strict;
 use warnings FATAL => 'all';
@@ -6,7 +6,7 @@ use warnings FATAL => 'all';
 use Moose;
 use namespace::autoclean;
 
-extends qw( LIMS2::Expection );
+extends qw( LIMS2::Exception );
 
 __PACKAGE__->meta->make_immutable( inline_constructor => 0 );
 

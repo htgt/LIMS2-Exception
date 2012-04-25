@@ -1,4 +1,4 @@
-package LIMS2::Expections::Authorization;
+package LIMS2::Exception::Authorization;
 
 use strict;
 use warnings FATAL => 'all';
@@ -6,7 +6,7 @@ use warnings FATAL => 'all';
 use Moose;
 use namespace::autoclean;
 
-extends qw( LIMS2::Expections );
+extends qw( LIMS2::Exception );
 
 has '+message' => (
     default => 'You are not authorized to perform this operation'

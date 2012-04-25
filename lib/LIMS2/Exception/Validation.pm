@@ -1,4 +1,4 @@
-package LIMS2::Expection::Validation;
+package LIMS2::Exception::Validation;
 
 use strict;
 use warnings FATAL => 'all';
@@ -8,7 +8,7 @@ use MooseX::ClassAttribute;
 use Data::Dump qw( pp );
 use namespace::autoclean;
 
-extends qw( LIMS2::Expection );
+extends qw( LIMS2::Exception );
 
 has show_params => (
     is      => 'rw',
