@@ -1,4 +1,7 @@
 package LIMS2::Exception::Authorization;
+{
+  $LIMS2::Exception::Authorization::VERSION = '0.001';
+}
 
 use strict;
 use warnings FATAL => 'all';

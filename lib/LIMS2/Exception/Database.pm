@@ -1,4 +1,7 @@
 package LIMS2::Exception::Database;
+{
+  $LIMS2::Exception::Database::VERSION = '0.001';
+}
 
 use strict;
 use warnings FATAL => 'all';

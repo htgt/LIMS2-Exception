@@ -1,4 +1,7 @@
 package LIMS2::Exception::Validation;
+{
+  $LIMS2::Exception::Validation::VERSION = '0.001';
+}
 
 use strict;
 use warnings FATAL => 'all';
