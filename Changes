@@ -1,2 +1,8 @@
-{{}}
+{{$NEXT}}
+	
+	Fix Changes header.
+	Skip README.md.
+	
+v0.001
+
         Initial release.
