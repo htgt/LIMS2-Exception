@@ -4,7 +4,6 @@ MANIFEST
 META.yml
 Makefile.PL
 README
-README.md
 lib/LIMS2/Exception.pm
 lib/LIMS2/Exception/Authorization.pm
 lib/LIMS2/Exception/Database.pm

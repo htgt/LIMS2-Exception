@@ -1,6 +1,6 @@
 package LIMS2::Exception::Authorization;
 {
-  $LIMS2::Exception::Authorization::VERSION = '0.001';
+  $LIMS2::Exception::Authorization::VERSION = '0.002';
 }
 
 use strict;

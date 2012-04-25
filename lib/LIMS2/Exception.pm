@@ -1,6 +1,6 @@
 package LIMS2::Exception;
 {
-  $LIMS2::Exception::VERSION = '0.001';
+  $LIMS2::Exception::VERSION = '0.002';
 }
 
 use strict;

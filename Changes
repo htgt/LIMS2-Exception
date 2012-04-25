@@ -1,3 +1,8 @@
+0.002     2012-04-25 10:24:36 Europe/London
+
+	Fix Changes header.
+	Skip README.md.
+	
 v0.001
 
         Initial release.
