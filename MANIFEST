@@ -13,5 +13,5 @@ lib/LIMS2/Exception/NotFound.pm
 lib/LIMS2/Exception/System.pm
 lib/LIMS2/Exception/Validation.pm
 t/00-compile.t
+t/author-critic.t
 t/release-no-smart-comments.t
-t/release-package-names.t

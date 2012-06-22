@@ -1,7 +1,10 @@
 package LIMS2::Exception::Validation;
+## no critic(RequireUseStrict,RequireUseWarnings)
 {
-  $LIMS2::Exception::Validation::VERSION = '0.002';
+    $LIMS2::Exception::Validation::VERSION = '0.003';
 }
+## use critic
+
 
 use strict;
 use warnings FATAL => 'all';
@@ -24,14 +27,14 @@ has '+message' => (
 );
 
 has results => (
-    is       => 'ro',
-    isa      => 'Data::FormValidator::Results',
+    is  => 'ro',
+    isa => 'Data::FormValidator::Results',
 );
 
 has params => (
-    is       => 'ro',
-    isa      => 'HashRef',
-    required => 1
+    is      => 'ro',
+    isa     => 'HashRef',
+    default => sub { {} },
 );
 
 override as_string => sub {
@@ -66,7 +69,7 @@ override as_string => sub {
         $str = join "\n\t", $str, @errors;
     }
 
-    if ( $self->show_params ) {
+    if ( $self->show_params and %{ $self->params } ) {
         $str .= "\n\n" . pp( $self->params );
     }
 

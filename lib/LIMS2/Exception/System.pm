@@ -1,7 +1,10 @@
 package LIMS2::Exception::System;
+## no critic(RequireUseStrict,RequireUseWarnings)
 {
-  $LIMS2::Exception::System::VERSION = '0.002';
+    $LIMS2::Exception::System::VERSION = '0.003';
 }
+## use critic
+
 
 use strict;
 use warnings FATAL => 'all';
