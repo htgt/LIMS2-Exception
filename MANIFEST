@@ -9,6 +9,7 @@ lib/LIMS2/Exception/Authorization.pm
 lib/LIMS2/Exception/Database.pm
 lib/LIMS2/Exception/Implementation.pm
 lib/LIMS2/Exception/InvalidState.pm
+lib/LIMS2/Exception/MissingData.pm
 lib/LIMS2/Exception/NotFound.pm
 lib/LIMS2/Exception/System.pm
 lib/LIMS2/Exception/Validation.pm

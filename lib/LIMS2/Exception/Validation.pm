@@ -1,7 +1,7 @@
 package LIMS2::Exception::Validation;
 ## no critic(RequireUseStrict,RequireUseWarnings)
 {
-    $LIMS2::Exception::Validation::VERSION = '0.003';
+    $LIMS2::Exception::Validation::VERSION = '0.004';
 }
 ## use critic
 
